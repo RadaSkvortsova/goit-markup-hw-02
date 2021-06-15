@@ -1,0 +1,41 @@
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-text-color: #ffffff;
+}
+
+body {
+    color: var(--primary-text-color);
+    font-family: 'Roboto', 'sans-serif';
+}
+.logo {
+    color: #212121;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+.logo span {
+    color: #2196f3;
+}
+.nav-list {
+    color: #212121;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+.nav,
+.nav-contacts {
+    list-style-type: none;
+}
+.contacts-items {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #757575;
+    text-decoration: none;
+}
