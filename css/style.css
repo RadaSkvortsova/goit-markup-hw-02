@@ -58,3 +58,17 @@ body {
     padding: 10px 32px;
     border-radius: 4px;
 }
+.skills-list {
+    list-style-type: none;
+}
+.skills-title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+.skills p {
+    color: var(--title-text-color);
+    font-size: 14px;
+    line-height: 1.7;
+}
