@@ -113,3 +113,48 @@ footer {
     line-height: 1.2;
     letter-spacing: 0.03em;
 }
+
+/* стили для portfolio */
+
+.portfolio {
+    text-align: center;
+}
+.bitton-item {
+    border: none;
+    padding: 6px 22px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    border-radius: 4px;
+}
+.bitton-item:hover,
+:focus {
+    color: #ffffff;
+    background-color: #2196f3;
+}
+.select-item {
+    display: inline-block;
+    margin-right: 8px;
+}
+.select-button {
+    text-align: center;
+}
+.img-decorate .img-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    color: #212121;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+}
+.img-decorate .img-desc {
+    font-family: 'Roboto';
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+}
+.img-decorate {
+    text-decoration: none;
+}
